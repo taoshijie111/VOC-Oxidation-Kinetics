@@ -1,0 +1,16 @@
+{
+    "react": "all",
+    "device": "cuda:0",
+    "batch_size": 32,
+    "epochs": 500,
+    "lr_start": 0.001,
+    "warmup_rate": 0.1,
+    "seed": 42,
+    "nmr": "yes",
+    "kfold": 10,
+    "num_layers": 7,
+    "heads": 8,
+    "hidden_size": 256,
+    "test_rate": 0.1,
+    "prefix": "GNNResModel-all-all_data-IBRAHIM"
+}

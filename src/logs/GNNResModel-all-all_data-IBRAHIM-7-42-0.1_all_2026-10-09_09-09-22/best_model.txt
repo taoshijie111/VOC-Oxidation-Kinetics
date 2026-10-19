@@ -1,0 +1,12 @@
+1 th model rmse: 0.3403053205256795 
+2 th model rmse: 0.4357262553577002 
+3 th model rmse: 0.44854601476694617 
+4 th model rmse: 0.36614044623216324 
+5 th model rmse: 0.4156026139957825 
+6 th model rmse: 0.4642855778107436 
+7 th model rmse: 0.43250968975689363 
+8 th model rmse: 0.44441684413770216 
+9 th model rmse: 0.7078113728410645 
+10 th model rmse: 0.5599015402552971 
+
+Test RMSE using best model: 1 with rmse: 0.3403053205256795

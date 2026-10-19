@@ -12,13 +12,26 @@ src/
 ├── trainer.py                  # Training, validation, and testing utilities
 ├── utils.py                    # Utility functions (plotting, scheduling, ensemble)
 ├── path.py                     # Path configurations
-├── all-0.1-42-kf-stratify/     # Processed dataset files
+├── all-0.1-42-kf-stratify/     # Processed dataset files (oxidant-stratified split)
 │   ├── train_all/
 │   └── test_all/
+├── ibrahim-42-kf-group/        # Processed dataset files (reference-study molecule partition)
+│   ├── train_all/
+│   └── test_all/
+├── ibrahim-split/              # Reference-partition benchmark: split lists, results, figure
+│   ├── results/
+│   └── figures/
 └── logs/                       # Training logs and model checkpoints
     ├── GNNResModel-all-all_data-7-42-0.1_all_2024-07-02_12-00-18/
+    ├── GNNResModel-all-all_data-IBRAHIM-7-42-0.1_all_2026-10-09_09-09-22/
     └── custom-single-explainer-group_all_2025-08-20_11-12-23/
 ```
+
+Two data partitions are provided: the oxidant-stratified split of the individual measurements
+(`all-0.1-42-kf-stratify/`), used for the results reported in the manuscript, and the molecule-level
+partition published with the reference dataset (`ibrahim-42-kf-group/`), on which the model was
+retrained for the like-for-like comparison with the literature baselines. The split lists, predictions,
+metrics and figure of that benchmark are in [`src/ibrahim-split/`](src/ibrahim-split/README.md).
 
 ## Installation
 
